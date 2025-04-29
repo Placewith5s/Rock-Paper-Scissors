@@ -139,16 +139,16 @@
                             }
 
                             if (this.plr_selection === "paper") {
-                                console.log("Player lost");
-                                this.state_text.textContent = "You lost";
-                                this.state_text.style.color = "rgb(240, 0, 0)";
+                                console.log("Player won");
+                                this.state_text.textContent = "You won";
+                                this.state_text.style.color = "rgb(0, 240, 0)";
                                 this.clean_up()
                             }
 
                             if (this.plr_selection === "scissors") {
-                                console.log("Player won");
-                                this.state_text.textContent = "You won";
-                                this.state_text.style.color = "rgb(0, 240, 0)";
+                                console.log("Player lost");
+                                this.state_text.textContent = "You lost";
+                                this.state_text.style.color = "rgb(240, 0, 0)";
                                 this.clean_up()
                             }
                             break
