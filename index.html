@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
+
+        <p id="plr-text">You:</p>
+        <div class="plr-selection">
+            <button id="plr-rock" aria-label="rock">🪨</button>
+            <button id="plr-paper" aria-label="paper">🧻</button>
+            <button id="plr-scissors" aria-label="scissors">✂️</button>
+        </div>
+        <span id="plr-result-text"></span>
+
+        <p id="computer-text">Computer:</p>
+        <div class="computer-selection">
+            <button disabled aria-disabled="true">🪨</button>
+            <button disabled aria-disabled="true">🧻</button>
+            <button disabled aria-disabled="true">✂️</button>
+        </div>
+        <span id="computer-result-text"></span>
+
+        <p id="state-text"></p>
+    </main>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
